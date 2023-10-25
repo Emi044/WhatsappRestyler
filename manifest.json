@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "Whatsapp Styler",
+    "version": "1.0",
+    "description": "Personalizza il tuo Whatsapp Web.",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/icon-16.png",
+            "48": "images/icon-48.png",
+            "128": "images/icon-128.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://web.whatsapp.com/"
+            ],
+            "css": [
+                "/css/my-style.css"
+            ],
+            "run-at": "document_start",
+            "world": "ISOLATED"
+        }
+    ],
+    "icons": {
+        "16": "images/icon-16.png",
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+    }
+}

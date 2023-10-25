@@ -1,0 +1,44 @@
+:root {
+    /* sfondo su schermi larghi */
+    --app-background-stripe: rgb(143, 0, 168) !important;
+    --app-background: rgb(231, 214, 235) !important;
+
+    /* messaggi inviati */
+    --outgoing-background: rgb(234, 228, 255) !important;
+    --outgoing-background-deeper: hsl(254, 61%, 85%) !important;
+
+    /* messaggi ricevuti */
+    --incoming-background: rgb(251, 228, 255) !important;
+    --incoming-background-deeper: hsl(291, 61%, 85%) !important;
+
+    /* barra caricamento iniziale */
+    --progress-primary: #cc00ff !important;
+
+    /* colori */
+    --color-1: rgb(192, 107, 210) !important;
+    --color-2: rgb(162, 82, 237) !important;
+}
+
+html[dir=ltr] ._2vDPL {
+    border-radius: 0px;
+    background-color: black;
+}
+
+html[dir=ltr] ._2Ex_b {
+    background-color: rgb(236, 240, 241) !important;
+}
+
+.bg-color-1 {
+    background-color: var(--color-1) !important;
+}
+.color-1 {
+    color: var(--color-1) !important;
+}
+
+.bg-color-2 {
+    background-color: var(--color-2) !important;
+}
+
+.color-2 {
+    color: var(--color-2) !important;
+}
